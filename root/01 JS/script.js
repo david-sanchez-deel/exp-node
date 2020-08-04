@@ -160,7 +160,6 @@ console.log('CShort', c1() && console.log( 'Short' ));
 // https://javascript.info/garbage-collection
 // Numbers https://javascript.info/number
 
-
 // Nullish Only in Node >= 14
 /* a = undefined;
 b = 2;
