@@ -22,6 +22,8 @@
     * Prototype
 
 1. Basic NodeJS. Libraries and utilities
+    * Event loop (https://javascript.info/event-loop) (https://javascript.info/microtask-queue)
+    * Modules (https://javascript.info/modules-intro) (https://javascript.info/import-export) (https://javascript.info/modules-dynamic-imports)
     * Utils:
         * Utils
         * Cluster Node
