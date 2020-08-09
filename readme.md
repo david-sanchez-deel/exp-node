@@ -16,35 +16,31 @@
 5. Badges and scores! Weakness is not an option
 
 ## Calendar
-1. Advance JS
-    * Variables
-    * Scope
-    * Prototype
-
+- [X] Advance JS
+    - [X] (1st Session) Operands, Booleans, Variables, Types, Primitives, Strings, valueOf, toString, Symbols, Garbage collector
+    - [X] (2nd Session) Scope, Lexical context, execution env, global, this, prototype, classes
+- [ ] NodeJS
+   -  [ ] (3td Session) npm (package.json, init, scripts, dependencies, versions, fields, registry, namespace) npm cousins, util files (editorconfig, jsconfig, ide, linter), git, extensions (VSCode)
 1. Basic NodeJS. Libraries and utilities
-    * Event loop (https://javascript.info/event-loop) (https://javascript.info/microtask-queue)
-    * Modules (https://javascript.info/modules-intro) (https://javascript.info/import-export) (https://javascript.info/modules-dynamic-imports)
-    * Utils:
-        * Utils
-        * Cluster Node
-        * Crypto
-        * Assert
-    * Libraries:
-        * Winston (Logger)
-        * MomentJS (Dates)
-        * Lodash (Hot topic)
-        * dotenv (Environment)
-        * SocketIO (WebSockets)
-        * sequelize, TypeORM, waterline (ORM)
+    - [ ] Event loop (https://javascript.info/event-loop) (https://javascript.info/microtask-queue)
+    - [ ] Modules (https://javascript.info/modules-intro) (https://javascript.info/import-export) (https://javascript.info/modules-dynamic-imports)
+    - [ ] Utils:
+        - [ ] Utils
+        - [ ] Cluster Node
+        - [ ] Crypto
+        - [ ] Assert
+    - [ ] Libraries:
+        - [ ] Winston (Logger)
+        - [ ] MomentJS (Dates)
+        - [ ] Lodash (Hot topic)
+        - [ ] dotenv (Environment)
+        - [ ] SocketIO (WebSockets)
+        - [ ] sequelize, TypeORM, waterline (ORM)
     2. Unit Testing
         * Mocha + Chai + Sinon
         * Jest + Jest + Jest
         * Jasmine? Karma? Protractor!!????
         * Performance talk and trade offs
-    2. NPM
-        * Commands
-        * Registry
-        * Namespaces
 3. Architectures (Patterns (Component Vs Layers)) (Data management)
 1. Express and its cousins
     * EX: Express, Happy, OKA?, Fastify, Restify
