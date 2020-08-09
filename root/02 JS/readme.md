@@ -39,7 +39,7 @@ console.log(obj[key]);
 2. How to solve it? Do this works? Why?
 ```let obj = Object.create(null);```
 
-3. How to archive multiple inheritance? (Mixings)
+3. How to archive multiple inheritance? (Mixing)
 
 ## Pointhief
 
@@ -69,7 +69,7 @@ Once ready, publish it into this repo and announce it to the group. Who finds yo
 2. If using the code of the other one (`.get` or `.use` or `.listen`), you are able to change its behavior.
 
 **Winner:** All the points from the other one
-**Losser:** 0 points is your new score (You can not lose your assistance points)
+**Loser:** 0 points is your new score (You can not lose your assistance points)
 
 ## How to participate?
 Create your solution and write an example using it, then you will be able to participate.

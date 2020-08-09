@@ -1,0 +1,11 @@
+{
+  "verbose": true,
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules"
+  ],
+  "execMap": {
+    "js": "node -r dotenv/config src/index.js"
+  },
+  "ext": "js,json"
+}

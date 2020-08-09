@@ -1,0 +1,63 @@
+swagger: "2.0"
+info:
+  description: "This is an api to track the market ticket to compare prices between super markets"
+  version: "1.0.0"
+  title: "Market Comparer"
+host: "localhost:8080"
+basePath: "/v1"
+schemes:
+- "http"
+paths:
+  "/me/ticket":
+    post:
+      summary: "Add a new ticket"
+      consumes:
+        - "multipart/form-data"
+      produces:
+      - "application/json"
+      parameters:
+      - in: formData
+        name: ticket
+        type: file
+        required: true
+        description: The ticket to upload.
+      - in: formData
+        name: date
+        type: string
+        required: true
+        description: Date of the purchase
+      - in: formData
+        name: id
+        required: true
+        type: string
+        description: Id of the supermarket where ticket comes from
+      responses:
+        "201":
+          description: "Created"
+      security:
+      - bearerAuth: []
+  "/login/google":
+    post:
+      summary: "Login a user with Google Auth"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - in: body
+          name: body
+          schema:
+            type: object
+            properties:
+              tokenId:
+                type: string 
+          required: true
+          description: The tokenId from google
+      responses:
+        "201":
+          description: "Logged in"
+securityDefinitions:
+  bearerAuth:
+    type: "apiKey"
+    name: "Authorization"
+    in: "header"

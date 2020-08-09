@@ -20,10 +20,10 @@
     - [X] (1st Session) Operands, Booleans, Variables, Types, Primitives, Strings, valueOf, toString, Symbols, Garbage collector
     - [X] (2nd Session) Scope, Lexical context, execution env, global, this, prototype, classes
 - [ ] NodeJS
-   -  [ ] (3td Session) npm (package.json, init, scripts, dependencies, versions, fields, registry, namespace) npm cousins, util files (editorconfig, jsconfig, ide, linter), git, extensions (VSCode)
+   - [ ] (3rd Session) npm (package.json, init, scripts, dependencies, versions, fields, registry, namespace) npm cousins, util files (editorconfig, jsconfig, ide, linter), git, extensions (VSCode)
+   - [ ] (4th Session) nodemon, eslint, process, event emitter, dotenv, env vars management
 1. Basic NodeJS. Libraries and utilities
-    - [ ] Event loop (https://javascript.info/event-loop) (https://javascript.info/microtask-queue)
-    - [ ] Modules (https://javascript.info/modules-intro) (https://javascript.info/import-export) (https://javascript.info/modules-dynamic-imports)
+    - [ ] Event loop (https://javascript.info/event-loop) (https://javascript.info/microtask-queue) (https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick)
     - [ ] Utils:
         - [ ] Utils
         - [ ] Cluster Node
@@ -33,7 +33,6 @@
         - [ ] Winston (Logger)
         - [ ] MomentJS (Dates)
         - [ ] Lodash (Hot topic)
-        - [ ] dotenv (Environment)
         - [ ] SocketIO (WebSockets)
         - [ ] sequelize, TypeORM, waterline (ORM)
     2. Unit Testing
@@ -49,4 +48,4 @@
 1. TypeScript
     * NestJS
 3. REST API
-3. GraphQL
+- [ ] GraphQL (Only > 20 points || All homeworks)
