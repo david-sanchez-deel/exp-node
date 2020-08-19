@@ -4,7 +4,6 @@ class Response {
   #res;
   constructor(res) {
     this.#res = res;
-
   }
 
   send(status, data) {
@@ -90,6 +89,7 @@ class App {
   listen(port) {
     const portToUse = Number(port) || 3000;
     this.#server.listen(portToUse, "0.0.0.0");
+    console.log(this.#listeners);
     return Promise.resolve({ port: portToUse });
   }
 }

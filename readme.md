@@ -19,13 +19,13 @@
 - [X] Advance JS
     - [X] (1st Session) Operands, Booleans, Variables, Types, Primitives, Strings, valueOf, toString, Symbols, Garbage collector
     - [X] (2nd Session) Scope, Lexical context, execution env, global, this, prototype, classes
-- [ ] NodeJS
-   - [ ] (3rd Session) npm (package.json, init, scripts, dependencies, versions, fields, registry, namespace) npm cousins, util files (editorconfig, jsconfig, ide, linter), git, extensions (VSCode)
-   - [ ] (4th Session) nodemon, eslint, process, event emitter, dotenv, env vars management
+- [X] Basic NodeJS - Fundamentals 1
+   - [X] (3rd Session) npm (package.json, init, scripts, dependencies, versions, fields, registry, namespace) npm cousins, util files (editorconfig, jsconfig, ide, linter), git, extensions (VSCode)
+   - [X] (4th Session) nodemon, eslint, process, event emitter, dotenv, env vars management, modules
 1. Basic NodeJS. Libraries and utilities
     - [ ] Event loop (https://javascript.info/event-loop) (https://javascript.info/microtask-queue) (https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick)
     - [ ] Utils:
-        - [ ] Utils
+        - [X] Util
         - [ ] Cluster Node
         - [ ] Crypto
         - [ ] Assert
