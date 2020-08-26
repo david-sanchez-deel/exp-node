@@ -1,0 +1,27 @@
+version: '3.1'
+services:
+  mongo:
+    image: mongo
+    environment:
+      - MONGO_INITDB_DATABASE=exp
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongo_data:/data/db
+  api:
+    build:
+      dockerfile: dev.Dockerfile
+      context: .
+    depends_on:
+      - mongo
+    environment:
+      NODE_ENV: local
+      MONGO_URL: mongodb://mongo:27017/exp
+    ports:
+      - '8080:8080'
+    command: ./node_modules/.bin/nodemon
+    volumes:
+      - .:/home/app
+      - /home/app/node_modules
+volumes:
+  mongo_data: ~

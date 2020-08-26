@@ -1,38 +1,44 @@
-const server = require("./libs/server");
-const environment = require("./environment");
-var multer = require("multer");
-var upload = multer();
-var promisify = require("util").promisify;
+// Require the framework and instantiate it
+const environment = require('./environment');
+const status = require('./controllers/status');
+const signUp = require('./controllers/sign-up');
+const fastify = require('fastify');
+const mongoose = require('mongoose');
+const ForbiddenError = require('./errors/forbidden-error');
+const login = require('./controllers/login');
 
-const app = server();
-
-app.get("/status", (req, res) => res.ok("OK"));
-
-app.post("/login/google", (req, res) => {
-  res.created();
+const server = fastify({
+  logger: false,
 });
 
-app.post("/v1/me/ticket", async (req, res) => {
-  await promisify(upload.single("ticket"))(req, res);
-  console.log("File", req.file);
-  console.log("Body", req.body);
-  res.created();
+server.get('/api/v1/status', status);
+server.post('/api/v1/sign-up', signUp);
+server.post('/api/v1/login', login);
+
+server.setErrorHandler(function (error, _, reply) {
+  if (error.code === 'ERR_ASSERTION') {
+    return reply.send({ status: '400', message: 'BadRequest'})
+  }
+  if (error instanceof ForbiddenError) {
+    return reply.send({ status: '403', message: error.message })
+  }
+  if (error.name === 'MongoError' && error.code === 11000) {
+    return reply.send({ status: '400', message: 'BadRequest', code: 'key-error' })
+  }
+  console.error('Error', JSON.stringify(error));
+  reply.send({ status: '500', message: 'Server Error'});
 });
 
-app.use((_, res) => {
-  res.setHeader("Access-Control-Allow-Origin", "*");
-  res.setHeader(
-    "Access-Control-Allow-Headers",
-    "Authorization, X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Allow-Request-Method"
-  );
-  res.setHeader(
-    "Access-Control-Allow-Methods",
-    "GET, POST, OPTIONS, PUT, DELETE"
-  );
-  res.setHeader("Allow", "GET, POST, OPTIONS, PUT, DELETE");
-  return true;
-});
+(async () => {
+  await mongoose.connect(environment.mongoUrl, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useFindAndModify: false,
+    useCreateIndex: true,
+  });
 
-app.listen(environment.port).then((config) => {
-  console.log("Listening at", config.port);
-});
+  server.listen(environment.port, '0.0.0.0', (err) => {
+    if (err) throw err;
+    console.log('Listening at', environment.port);
+  });
+})();
