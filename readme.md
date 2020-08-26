@@ -29,20 +29,22 @@
    - [X] (4th Session) dotenv, env vars management
 - [ ] Advance NodeJS
     - [X] (4th Session) Util
-    - [ ] (5th Session) Event loop (Behavior, performance) (https://javascript.info/event-loop) (https://javascript.info/microtask-queue) (https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick)
-    - [ ] (5th Session) Cluster Node
+    - [X] (5th Session) Event loop (Behavior, performance) (https://javascript.info/event-loop) (https://javascript.info/microtask-queue) (https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick)
+    - [x] (5th Session) Cluster Node
+    - [ ] (6th Session) Crypto, using example.
+    - [ ] (6th Session) Assert
+    - [ ] (6th Session) MomentJS (Dates)
+    - [ ] (6th Session) Common code architecture pattern (2 layers) using express
+    - [ ] (7th Session) JWT.io, using example for authentication
+    - [ ] (7th Session) Logger, system output. Winston (Logger) and alternatives
+    - [ ] Unit Testing
+            * Mocha + Chai + Sinon
+            * Jest + Jest + Jest
+            * Jasmine? Karma? Protractor!!????
+            * Performance talk and trade offs
     - [ ] Profiling
     - [ ] Memory leaks
-    - [ ] Crypto
-    - [ ] Assert
-    - [ ] Unit Testing
-        * Mocha + Chai + Sinon
-        * Jest + Jest + Jest
-        * Jasmine? Karma? Protractor!!????
-        * Performance talk and trade offs
 - [ ] Libraries and utilities
-    - [ ] Winston (Logger)
-    - [ ] MomentJS (Dates)
     - [ ] Lodash (Hot topic)
     - [ ] SocketIO (WebSockets)
     - [ ] sequelize, TypeORM, waterline (ORM)
