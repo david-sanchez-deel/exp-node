@@ -1,6 +1,7 @@
 const User = require('../schemas/user');
 const { hashPassword } = require('./password-service');
 const ForbiddenError = require('../errors/forbidden-error');
+const jwtService = require('./jwt-service');
 const assert = require('assert').strict;
 
 const userService = {
@@ -27,7 +28,14 @@ const userService = {
       console.warn('Error, password miss match');
       throw new ForbiddenError();
     }
-    return user;
+
+    const token = jwtService.sign({ name });
+    return token;
+  },
+  getByName(name) {
+    return User.findOne({
+      name,
+    });
   }
 };
 

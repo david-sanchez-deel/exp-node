@@ -22,6 +22,7 @@ services:
     command: ./node_modules/.bin/nodemon
     volumes:
       - .:/home/app
-      - /home/app/node_modules
+      - exp-modules:/home/app/node_modules
 volumes:
   mongo_data: ~
+  exp-modules:

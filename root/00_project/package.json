@@ -15,12 +15,14 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "fastify": "^3.3.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.10.1",
     "multer": "^1.4.2",
-    "sqlite3": "^5.0.0"
+    "pino": "^6.5.1"
   },
   "devDependencies": {
-    "nodemon": "2.0.4"
+    "nodemon": "2.0.4",
+    "pino-pretty": "^4.2.0"
   },
   "engines": {
     "node": "^12.13.0"
