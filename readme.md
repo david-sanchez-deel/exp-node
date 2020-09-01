@@ -35,26 +35,25 @@
     - [X] (6th Session) Crypto, using example.
     - [X] (6th Session) Assert
     - [X] (6th Session) MomentJS (Dates)
-    - [X] (6th Session) Common code architecture pattern (2 layers) using express
+    - [X] (6th Session) Common code architecture pattern (2 layers) using fastify
     - [X] (7th Session) JWT.io, using example for authentication
     - [X] (7th Session) Logger, system output. Winston (Logger) and alternatives
-    - [X] (7th Session) Mocha + Chai + Sinon
-    - [ ] Unit Testing
-            * Jest + Jest + Jest
+    - [X] (7th Session) Unit Testing: Mocha + Chai + Sinon
+    - [ ] (8th Session) Profiling
+    - [ ] (8th Session) Memory leaks
+    - [ ] (8th Session) TypeScript
+    - [ ] (9th Session) Jest + Jest + Jest
+    - [ ] (9th Session) Socket.IO
+    - [ ] (9th Session) Lodash (Hot topic)
+    - [ ] (9th Session) sequelize, TypeORM, waterline (ORM) When & why's
+    - [ ] (9th Session) NestJS (Component Pattern)
+    - [ ] (10th Session) SailsJS + Carry over
+    - [ ] (10-11th Session) CleanArchitecture Mix Vol 2. + Testing + Decorators
+    - [ ] (12th Session)* Notes: JS allows you to follow any arch. Is this a good or not? 
+    --- Final Project ---
+    - [ ] (13th Session) REST API
+    - [ ] (13th Session) Unit Testing
             * Jasmine? Karma? Protractor!!????
             * Performance talk and trade offs
-    - [ ] Profiling
-    - [ ] Memory leaks
-- [ ] Libraries and utilities
-    - [ ] Lodash (Hot topic)
-    - [ ] SocketIO (WebSockets)
-    - [ ] sequelize, TypeORM, waterline (ORM)
-3. Architectures (Patterns (Component Vs Layers)) (Data management)
-1. Express and its cousins
-    * EX: Express, Happy, OKA?, Fastify, Restify
-    * SailsJS + Carry over
-    * Notes: JS allows you to follow any arch. Is this a good or not? 
-1. TypeScript
-    * NestJS
-3. REST API
-- [ ] GraphQL (Only > 20 points || All homeworks)
+    - [ ] ?(14th Session) GraphQL
+    - End
