@@ -4,10 +4,10 @@
   "description": "Market project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "nyc mocha",
     "dev": "docker-compose up",
     "lint": "",
-    "test:watch": "",
+    "test:watch": "mocha -w",
     "dev:check": ""
   },
   "author": "",
@@ -21,8 +21,11 @@
     "pino": "^6.5.1"
   },
   "devDependencies": {
+    "mocha": "^8.1.3",
     "nodemon": "2.0.4",
-    "pino-pretty": "^4.2.0"
+    "nyc": "^15.1.0",
+    "pino-pretty": "^4.2.0",
+    "sinon": "^9.0.3"
   },
   "engines": {
     "node": "^12.13.0"

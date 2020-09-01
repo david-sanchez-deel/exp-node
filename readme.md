@@ -31,14 +31,15 @@
     - [X] (4th Session) Util
     - [X] (5th Session) Event loop (Behavior, performance) (https://javascript.info/event-loop) (https://javascript.info/microtask-queue) (https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick)
     - [X] (5th Session) Cluster Node
+    - [X] (5th Session) 2 Layer Pattern
     - [X] (6th Session) Crypto, using example.
     - [X] (6th Session) Assert
     - [X] (6th Session) MomentJS (Dates)
     - [X] (6th Session) Common code architecture pattern (2 layers) using express
-    - [ ] (7th Session) JWT.io, using example for authentication
-    - [ ] (7th Session) Logger, system output. Winston (Logger) and alternatives
+    - [X] (7th Session) JWT.io, using example for authentication
+    - [X] (7th Session) Logger, system output. Winston (Logger) and alternatives
+    - [X] (7th Session) Mocha + Chai + Sinon
     - [ ] Unit Testing
-            * Mocha + Chai + Sinon
             * Jest + Jest + Jest
             * Jasmine? Karma? Protractor!!????
             * Performance talk and trade offs

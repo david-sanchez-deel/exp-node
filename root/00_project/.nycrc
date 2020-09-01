@@ -1,0 +1,23 @@
+{
+  "lines": 90,
+  "statements": 90,
+  "functions": 85,
+  "branches": 85,
+  "include": [
+    "src/**/*.js"
+  ],
+  "exclude": [
+    "src/**/*.spec.js"
+  ],
+  "reporter": [
+    "text-summary",
+    "lcov"
+  ],
+  "check-coverage": true,
+  "report-dir": "./coverage",
+  "temp-directory": "./.nyc_output",
+  "clean": true,
+  "cache": false,
+  "check-coverage": true,
+  "all": true
+}

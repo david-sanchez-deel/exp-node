@@ -50,3 +50,16 @@ process.stderr
 
 
 // Add logger to project
+
+
+// Unit testing with mocha
+
+// Setup mocha, package.json, jwt-service test
+
+// What's a unit test?
+// How much time it should take?
+// What are the requirements for it? Isolate, No race conditions, predictable
+// What should I test?
+// Without TDD, it works as a bug detector, but consumes more time because the development change in the process
+// Avoid movement of code
+// DO NOT Comment or skip tests
