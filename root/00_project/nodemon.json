@@ -5,7 +5,7 @@
     "node_modules/**/node_modules"
   ],
   "execMap": {
-    "js": "node -r dotenv/config src/index.js"
+    "js": "ts-node -T -P tsconfig.json -r tsconfig-paths/register -r dotenv/config src/index.ts"
   },
-  "ext": "js,json"
+  "ext": "js,json,ts"
 }

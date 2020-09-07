@@ -39,10 +39,10 @@
     - [X] (7th Session) JWT.io, using example for authentication
     - [X] (7th Session) Logger, system output. Winston (Logger) and alternatives
     - [X] (7th Session) Unit Testing: Mocha + Chai + Sinon
-    - [ ] (8th Session) Profiling
-    - [ ] (8th Session) Memory leaks
-    - [ ] (8th Session) TypeScript
-    - [ ] (9th Session) Jest + Jest + Jest
+    - [X] (8th Session) Profiling
+    - [X] (8th Session) Memory leaks
+    - [X] (8th Session) TypeScript
+    - [ ] (9th Session) Jest + Jest + Jest
     - [ ] (9th Session) Socket.IO
     - [ ] (9th Session) Lodash (Hot topic)
     - [ ] (9th Session) sequelize, TypeORM, waterline (ORM) When & why's

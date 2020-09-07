@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "sourceMap": true,
+    "outDir": ".out",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "types": ["node", "mocha"],
+    "lib": ["ES2020"],
+    "baseUrl": "./src",
+    "paths": {
+      "@exp/*": ["./*"],
+    },
+    "removeComments": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  },
+  "includes": ["**/*"],
+  "exclude": ["node_modules"]
+}

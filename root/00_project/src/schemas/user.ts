@@ -1,10 +1,6 @@
-const mongoose = require('mongoose');
+import { Schema, model } from 'mongoose';
 
-const Schema = mongoose.Schema;
-const ObjectId = Schema.ObjectId;
-
-const User = new Schema({
-  author: ObjectId,
+const userSchema = new Schema({
   name: {
     required: true,
     type: String,
@@ -22,4 +18,4 @@ const User = new Schema({
   updatedAt: Date
 });
 
-module.exports = mongoose.model('User', User);
+export const User = model('User', userSchema);
