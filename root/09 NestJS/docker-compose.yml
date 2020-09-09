@@ -1,0 +1,28 @@
+version: '3.1'
+services:
+  mysql:
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=nest
+    image: 'mysql:5.7.8'
+    ports:
+      - '3306:3306'
+    volumes:
+      - 'mysql_data:/var/lib/mysql'
+  api:
+    build:
+      dockerfile: dev.Dockerfile
+      context: .
+    depends_on:
+      - mysql
+    command: npm run start:dev
+    environment:
+      NODE_ENV: local
+    ports:
+      - '8080:3000'
+    volumes:
+      - .:/home/app
+      - exp-modules:/home/app/node_modules
+volumes:
+  mysql_data: ~
+  exp-modules:

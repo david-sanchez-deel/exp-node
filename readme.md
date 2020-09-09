@@ -42,12 +42,13 @@
     - [X] (8th Session) Profiling
     - [X] (8th Session) Memory leaks
     - [X] (8th Session) TypeScript
-    - [ ] (9th Session) Jest + Jest + Jest
+    - [X] (9th Session) Jest + Jest + Jest
     - [ ] (9th Session) Socket.IO
-    - [ ] (9th Session) Lodash (Hot topic)
-    - [ ] (9th Session) sequelize, TypeORM, waterline (ORM) When & why's
-    - [ ] (9th Session) NestJS (Component Pattern)
-    - [ ] (10th Session) SailsJS + Carry over
+    - [X] (9th Session) Lodash (Hot topic)
+    - [X] (9th Session) TypeORM
+    - [X] (9th Session) NestJS (Component Pattern)
+    - [ ] (10th Session) ORMs: Sequelize. When & why's
+    - [ ] (10th Session) SailsJS + waterline, Carry over
     - [ ] (10-11th Session) CleanArchitecture Mix Vol 2. + Testing + Decorators
     - [ ] (12th Session)* Notes: JS allows you to follow any arch. Is this a good or not? 
     --- Final Project ---
