@@ -43,13 +43,16 @@
     - [X] (8th Session) Memory leaks
     - [X] (8th Session) TypeScript
     - [X] (9th Session) Jest + Jest + Jest
-    - [ ] (9th Session) Socket.IO
+    - [X] (9th Session) Socket.IO
     - [X] (9th Session) Lodash (Hot topic)
     - [X] (9th Session) TypeORM
     - [X] (9th Session) NestJS (Component Pattern)
-    - [ ] (10th Session) ORMs: Sequelize. When & why's
-    - [ ] (10th Session) SailsJS + waterline, Carry over
-    - [ ] (10-11th Session) CleanArchitecture Mix Vol 2. + Testing + Decorators
+    - [X] (10th Session) ORMs: Sequelize. When & why's
+    - [X] (10th Session) SailsJS + waterline, Carry over
+    - [ ] (11th Session) Invierno
+    - [ ] (11th Session) CleanArchitecture Mix Vol 2. + Testing + Decorators
+    - [ ] (11th Session) Files as env variable (Google credentials)
+    - [ ] (12th Session) Serverless
     - [ ] (12th Session)* Notes: JS allows you to follow any arch. Is this a good or not? 
     --- Final Project ---
     - [ ] (13th Session) REST API
@@ -58,3 +61,13 @@
             * Performance talk and trade offs
     - [ ] ?(14th Session) GraphQL
     - End
+
+
+# Project tasks
+
+- [ ] User SignUp (A user can sign up into the application with email password salted)
+- [ ] User Login (A user can login into the application with email and password, returns a JWT token)
+- [ ] User Authentication (A user can use their JWT token to authorization process to add or list a shopping list)
+- [ ] Create market object from image (Items, unit price, total price, units) (Logic to convert an image to a POJO)
+- [ ] Add new shopping list (Operation to add a new shopping list to the user using images)
+- [ ] List history (Operation to list all the shopping lists)
