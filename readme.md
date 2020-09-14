@@ -43,12 +43,13 @@
     - [X] (8th Session) Memory leaks
     - [X] (8th Session) TypeScript
     - [X] (9th Session) Jest + Jest + Jest
-    - [X] (9th Session) Socket.IO
     - [X] (9th Session) Lodash (Hot topic)
     - [X] (9th Session) TypeORM
     - [X] (9th Session) NestJS (Component Pattern)
     - [X] (10th Session) ORMs: Sequelize. When & why's
     - [X] (10th Session) SailsJS + waterline, Carry over
+    - [X] (10th Session) Socket.IO
+    - [ ] (11th Session) Template Strings
     - [ ] (11th Session) Invierno
     - [ ] (11th Session) CleanArchitecture Mix Vol 2. + Testing + Decorators
     - [ ] (11th Session) Files as env variable (Google credentials)
