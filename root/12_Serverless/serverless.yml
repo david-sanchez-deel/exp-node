@@ -1,0 +1,18 @@
+# serverless.yml
+
+service: my-express-application
+
+plugins:
+    - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stage: dev
+  region: us-east-1
+
+functions:
+  status:
+    handler: controllers/status.handler
+    events:
+      - http: GET /status

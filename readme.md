@@ -49,12 +49,12 @@
     - [X] (10th Session) ORMs: Sequelize. When & why's
     - [X] (10th Session) SailsJS + waterline, Carry over
     - [X] (10th Session) Socket.IO
-    - [ ] (11th Session) Template Strings
-    - [ ] (11th Session) Invierno
-    - [ ] (11th Session) CleanArchitecture Mix Vol 2. + Testing + Decorators
-    - [ ] (11th Session) Files as env variable (Google credentials)
-    - [ ] (12th Session) Serverless
-    - [ ] (12th Session)* Notes: JS allows you to follow any arch. Is this a good or not? 
+    - [X] (11th Session) Template Strings
+    - [X] (11th Session) Invierno
+    - [X] (11th Session) Files as env variable (Google credentials)
+    - [X] (12th Session) Serverless
+    - [x] (11th Session) CleanArchitecture Mix Vol 2. + Testing + Decorators
+    - Streams & Buffers
     --- Final Project ---
     - [ ] (13th Session) REST API
     - [ ] (13th Session) Unit Testing
